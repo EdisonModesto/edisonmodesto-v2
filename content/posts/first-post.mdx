@@ -1,0 +1,59 @@
+---
+title: "Getting Started with Flutter"
+description: "A beginner's guide to building your first Flutter app"
+date: "2026-03-02"
+---
+
+# Getting Started with Flutter
+
+Flutter has become one of the most popular frameworks for building cross-platform applications. In this post, I'll share my journey and some tips for beginners.
+
+## Why Flutter?
+
+- **Single codebase** for iOS, Android, web, and desktop
+- **Hot reload** for rapid development
+- **Beautiful UI** with customizable widgets
+- **Strong community** and growing ecosystem
+
+## Your First App
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Hello Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome!'),
+        ),
+        body: const Center(
+          child: Text('Hello, World!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+## Key Concepts
+
+1. **Everything is a widget** — UI components, layouts, even the app itself
+2. **State management** — Learn `setState`, then explore Provider, Riverpod, Bloc
+3. **Widget tree** — Understand how widgets compose together
+
+## Next Steps
+
+- Read the [official documentation](https://docs.flutter.dev)
+- Build a small project
+- Join the Flutter community
+
+Happy coding!
