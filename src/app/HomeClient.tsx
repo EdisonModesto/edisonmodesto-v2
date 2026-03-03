@@ -75,7 +75,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section - Full height, white background */}
-      <section className="min-h-screen flex items-center px-4 sm:px-6 lg:px-8 xl:px-12">
+      <section className="min-h-screen flex items-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {/* Left side - Text content */}
