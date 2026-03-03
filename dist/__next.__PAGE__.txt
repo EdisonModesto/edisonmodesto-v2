@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[54523,["/_next/static/chunks/7c92e96509cd355e.js","/_next/static/chunks/cc1d8c8b16fff59a.js"],"default"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T4f9,
+# Getting Started with Flutter
+
+Flutter has become one of the most popular frameworks for building cross-platform applications. In this post, I'll share my journey and some tips for beginners.
+
+## Why Flutter?
+
+- **Single codebase** for iOS, Android, web, and desktop
+- **Hot reload** for rapid development
+- **Beautiful UI** with customizable widgets
+- **Strong community** and growing ecosystem
+
+## Your First App
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Hello Flutter',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Welcome!'),
+        ),
+        body: const Center(
+          child: Text('Hello, World!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+## Key Concepts
+
+1. **Everything is a widget** — UI components, layouts, even the app itself
+2. **State management** — Learn `setState`, then explore Provider, Riverpod, Bloc
+3. **Widget tree** — Understand how widgets compose together
+
+## Next Steps
+
+- Read the [official documentation](https://docs.flutter.dev)
+- Build a small project
+- Join the Flutter community
+
+Happy coding!
+0:{"buildId":"q-bQYHXvcAGQjyLEetSky","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutter","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/cc1d8c8b16fff59a.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
