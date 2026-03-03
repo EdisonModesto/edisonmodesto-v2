@@ -115,7 +115,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   return (
     <main className="min-h-screen bg-white py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Link 
           href="/blog" 
           className="inline-flex items-center gap-2 text-[#414141] hover:text-[#302B65] mb-8 transition-colors"

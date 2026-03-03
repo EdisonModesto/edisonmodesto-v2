@@ -76,7 +76,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
     <main className="min-h-screen bg-white">
       {/* Hero Section - Full height, white background */}
       <section className="min-h-screen flex items-center px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto w-full">
+        <div className="max-w-6xl mx-auto w-full">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {/* Left side - Text content */}
             <div className="flex-1 max-w-2xl">
@@ -198,7 +198,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
 
       {/* Experience Section - White background */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-8"
             style={{ fontFamily: 'Poppins, sans-serif' }}
@@ -314,7 +314,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
 
       {/* Achievements Section - White background with timeline */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#050505] mb-8"
             style={{ fontFamily: 'Poppins, sans-serif' }}
@@ -374,7 +374,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
 
       {/* Contact Section - White background */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-4"
             style={{ fontFamily: 'Poppins, sans-serif' }}
@@ -420,7 +420,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
       {/* Blog Section - Only if there are posts */}
       {posts.length > 0 && (
         <section className="py-20 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 
               className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-12"
               style={{ fontFamily: 'Poppins, sans-serif' }}

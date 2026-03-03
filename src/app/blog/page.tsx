@@ -7,7 +7,7 @@ export default function BlogPage() {
 
   return (
     <main className="min-h-screen bg-white py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Link 
           href="/" 
           className="inline-flex items-center gap-2 text-[#414141] hover:text-[#302B65] mb-8 transition-colors"
