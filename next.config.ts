@@ -1,20 +1,17 @@
 import type { NextConfig } from "next";
-import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
-  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
-  output: "export",
-  distDir: "dist",
+  output: 'export',
+  distDir: 'dist',
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
+  env: {
+    ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
+    GH_TOKEN: process.env.GH_TOKEN,
+    GITHUB_OWNER: process.env.GITHUB_OWNER,
+    GITHUB_REPO: process.env.GITHUB_REPO
+  }
 };
 
-const withMDX = createMDX({
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-  },
-});
-
-export default withMDX(nextConfig);
+export default nextConfig;
