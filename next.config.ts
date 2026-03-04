@@ -7,10 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   env: {
-    ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
-    GH_TOKEN: process.env.GH_TOKEN,
-    GITHUB_OWNER: process.env.GITHUB_OWNER,
-    GITHUB_REPO: process.env.GITHUB_REPO
+    NEXT_PUBLIC_ADMIN_PASSWORD: process.env.NEXT_PUBLIC_ADMIN_PASSWORD || 'changeme'
   }
 };
 

@@ -56,5 +56,5 @@ class MyApp extends StatelessWidget {
 - Join the Flutter community
 
 Happy coding!
-0:{"buildId":"yX4OmFBm7gqW1-1eB0VCm","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutter","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/188792f945dd6e01.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"ReS-yT8vraA6Vq_ki9PXM","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutter","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/188792f945dd6e01.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null

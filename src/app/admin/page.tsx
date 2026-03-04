@@ -29,22 +29,32 @@ export default function AdminPage() {
   const [content, setContent] = useState('');
   const [isNew, setIsNew] = useState(true);
 
+  // Get admin password from env (injected at build time)
+  const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD || '';
+
   // Check localStorage for auth
   useEffect(() => {
     const storedAuth = localStorage.getItem('adminAuth');
     const storedToken = localStorage.getItem('ghToken');
-    if (storedAuth === 'true' && storedToken) {
+    const storedPwHash = localStorage.getItem('adminPwHash');
+    
+    // Verify stored password hash matches current env password
+    const currentPwHash = btoa(ADMIN_PASSWORD).slice(0, 20);
+    
+    if (storedAuth === 'true' && storedToken && storedPwHash === currentPwHash) {
       setIsAuthenticated(true);
       setGhToken(storedToken);
       fetchPosts(storedToken);
     }
-  }, []);
+  }, [ADMIN_PASSWORD]);
 
   const handleLogin = () => {
-    if (password === 'edison2025' && ghToken) {
+    if (password === ADMIN_PASSWORD && ghToken) {
       setIsAuthenticated(true);
       localStorage.setItem('adminAuth', 'true');
       localStorage.setItem('ghToken', ghToken);
+      // Store a hash of the password (not the actual password)
+      localStorage.setItem('adminPwHash', btoa(ADMIN_PASSWORD).slice(0, 20));
       fetchPosts(ghToken);
     } else {
       alert('Invalid password or token');
@@ -194,6 +204,7 @@ ${content}
   const handleLogout = () => {
     localStorage.removeItem('adminAuth');
     localStorage.removeItem('ghToken');
+    localStorage.removeItem('adminPwHash');
     setIsAuthenticated(false);
     setGhToken('');
   };
