@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[54523,["/_next/static/chunks/7c92e96509cd355e.js","/_next/static/chunks/188792f945dd6e01.js"],"default"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2:I[54523,["/_next/static/chunks/135aa1e47e43b074.js","/_next/static/chunks/f4054ea3c48ec387.js"],"default"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
 3:T4f9,
 # Getting Started with Flutter
@@ -56,5 +56,5 @@ class MyApp extends StatelessWidget {
 - Join the Flutter community
 
 Happy coding!
-0:{"buildId":"8db3h_XGpoatF8I0Nhx-C","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutter","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/188792f945dd6e01.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"KaBRO09tv_V1GJHWhkGZl","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutters","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/f4054ea3c48ec387.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
 6:null
