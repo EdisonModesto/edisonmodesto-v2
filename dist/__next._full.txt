@@ -4,24 +4,160 @@
 4:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"default"]
 5:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"default"]
 c:I[68027,[],"default"]
-:HL["/_next/static/chunks/032c5b539902bc59.css","style"]
+:HL["/_next/static/chunks/ae530ab5a0de01c6.css","style"]
 :HL["/_next/static/media/47fe1b7cd6e6ed85-s.p.855a563b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/8e6fa89aa22d24ec-s.p.3aec397d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/a218039a3287bcfd-s.p.4a23d71b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/e2334d715941921e-s.p.d82a9aff.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"WRRtT55tyvh7hu1vir5RK","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/032c5b539902bc59.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/af82eab0a765c766.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"poppins_fa7ae995-module__PLyDCq__className bg-white","children":[["$","nav",null,{"className":"sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex justify-between items-center h-16","children":[["$","$L2",null,{"href":"/","className":"text-xl font-bold text-gray-900 hover:text-[#302B65] transition-colors","children":"Edison Modesto"}],["$","div",null,{"className":"hidden sm:flex items-center gap-8","children":[["$","$L3",null,{"href":"#home","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Home"}],["$","$L3",null,{"href":"#experience","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Experience"}],["$","$L3",null,{"href":"#projects","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Projects"}],["$","$L3",null,{"href":"#achievements","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Achievements"}],["$","$L2",null,{"href":"/blog","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Blog"}]]}],["$","$L3",null,{"href":"#contact","className":"hidden sm:inline-flex items-center gap-2 bg-[#302B65] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#252250] transition-colors","children":"Contact"}]]}]}]}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"bg-white border-t border-gray-100 py-12 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","div",null,{"className":"grid sm:grid-cols-3 gap-8 mb-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-bold text-[#050505] mb-4","children":"Edison Modesto"}],["$","p",null,{"className":"text-[#414141] text-sm","style":{"fontFamily":"Poppins, sans-serif"},"children":["Flutter Developer & Software Engineer",["$","br",null,{}],"Building impactful cross-platform applications."]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-bold text-[#050505] mb-4","children":"Quick Links"}],["$","ul",null,{"className":"space-y-2 text-[#414141] text-sm","children":[["$","li",null,{"children":["$","$L3",null,{"href":"#home","className":"hover:text-[#302B65] transition-colors","children":"Home"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"#experience","className":"hover:text-[#302B65] transition-colors","children":"Experience"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"#projects","className":"hover:text-[#302B65] transition-colors","children":"Projects"}]}],"$L6","$L7"]}]]}],"$L8"]}],"$L9"]}]}]]}]}]]}],{"children":["$La",{},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+0:{"P":null,"b":"im34I5xXVtv5yARJTxHyP","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ae530ab5a0de01c6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/af82eab0a765c766.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":["$","body",null,{"className":"poppins_fa7ae995-module__PLyDCq__className bg-white","children":[["$","nav",null,{"className":"sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex justify-between items-center h-16","children":[["$","$L2",null,{"href":"/","className":"text-xl font-bold text-gray-900 hover:text-[#302B65] transition-colors","children":"Edison Modesto"}],["$","div",null,{"className":"hidden sm:flex items-center gap-8","children":[["$","$L3",null,{"href":"#home","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Home"}],["$","$L3",null,{"href":"#experience","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Experience"}],["$","$L3",null,{"href":"#projects","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Projects"}],["$","$L3",null,{"href":"#achievements","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Achievements"}],["$","$L2",null,{"href":"/blog","className":"text-gray-600 hover:text-gray-900 transition-colors","children":"Blog"}]]}],["$","$L3",null,{"href":"#contact","className":"hidden sm:inline-flex items-center gap-2 bg-[#302B65] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#252250] transition-colors","children":"Contact"}]]}]}]}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"bg-white border-t border-gray-100 py-12 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","div",null,{"className":"grid sm:grid-cols-3 gap-8 mb-8","children":[["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-bold text-[#050505] mb-4","children":"Edison Modesto"}],["$","p",null,{"className":"text-[#414141] text-sm","style":{"fontFamily":"Poppins, sans-serif"},"children":["Flutter Developer & Software Engineer",["$","br",null,{}],"Building impactful cross-platform applications."]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-bold text-[#050505] mb-4","children":"Quick Links"}],["$","ul",null,{"className":"space-y-2 text-[#414141] text-sm","children":[["$","li",null,{"children":["$","$L3",null,{"href":"#home","className":"hover:text-[#302B65] transition-colors","children":"Home"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"#experience","className":"hover:text-[#302B65] transition-colors","children":"Experience"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"#projects","className":"hover:text-[#302B65] transition-colors","children":"Projects"}]}],"$L6","$L7"]}]]}],"$L8"]}],"$L9"]}]}]]}]}]]}],{"children":["$La",{},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
 d:I[54523,["/_next/static/chunks/af82eab0a765c766.js","/_next/static/chunks/bbc5fbf34547f9b5.js"],"default"]
-e:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-f:"$Sreact.suspense"
 11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"ViewportBoundary"]
 13:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"MetadataBoundary"]
+14:"$Sreact.suspense"
 6:["$","li",null,{"children":["$","$L3",null,{"href":"#achievements","className":"hover:text-[#302B65] transition-colors","children":"Achievements"}]}]
 7:["$","li",null,{"children":["$","$L2",null,{"href":"/blog","className":"hover:text-[#302B65] transition-colors","children":"Blog"}]}]
 8:["$","div",null,{"children":[["$","h3",null,{"className":"text-lg font-bold text-[#050505] mb-4","children":"Connect"}],["$","ul",null,{"className":"space-y-2 text-[#414141] text-sm","children":[["$","li",null,{"children":["$","a",null,{"href":"https://github.com/EdisonModesto","target":"_blank","rel":"noopener noreferrer","className":"hover:text-[#302B65] transition-colors","children":"GitHub"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://www.linkedin.com/in/edison-modesto-a65440219/","target":"_blank","rel":"noopener noreferrer","className":"hover:text-[#302B65] transition-colors","children":"LinkedIn"}]}],["$","li",null,{"children":["$","a",null,{"href":"mailto:edisonmodesto22@gmail.com","className":"hover:text-[#302B65] transition-colors","children":"Email"}]}]]}]]}]
 9:["$","div",null,{"className":"border-t border-gray-100 pt-8 text-center text-[#828282] text-sm","style":{"fontFamily":"Poppins, sans-serif"},"children":["© ",2026," Edison Modesto. Built with Next.js."]}]
-a:["$","$1","c",{"children":[["$","$Ld",null,{"posts":[{"slug":"test","title":"test","description":"","date":"2026-03-05T02:35:14.951Z","content":"---\ntitle: Test\ndescription: date: 2026-03-05\ndate: 2026-03-05\nstatus: draft\n---\n\ntest\n"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/bbc5fbf34547f9b5.js","async":true,"nonce":"$undefined"}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}]
-b:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$f",null,{"name":"Next.Metadata","children":"$L14"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+e:T1f18,
+Six months ago, I joined Tripex as a Flutter developer. On my first day, I pulled the mobile app repository and ran `flutter build`. Then I waited. And waited. When the build finally finished 8 minutes later, I knew I had my work cut out for me.
+
+What I discovered was a codebase that had grown organically over two years—features layered on top of features, business logic scattered across UI files, and state management that seemed to follow no discernible pattern. It worked. It was in production. But it was also a minefield.
+
+This is the story of why we refactored it, what we learned, and why good architecture isn't just nice to have—it's essential for survival.
+
+## The Real Cost of Technical Debt
+
+Technical debt doesn't announce itself. It accumulates in small decisions:
+
+- *"I'll just put this logic here for now"*
+- *"We don't have time to set up proper state management"*
+- *"This API call can live in the widget, it's just one screen"*
+
+At Tripex, these decisions had compounded. The app had:
+
+- **Inconsistent state management** - Some screens used setState, others used Provider, a few used Riverpod, and one mysterious corner used BLoC
+- **Widget files exceeding 1,000 lines** - Business logic, UI, and API calls all living together
+- **No separation of concerns** - The concept of "layers" was more suggestion than architecture
+- **Testing? What testing?** - Zero unit tests, minimal widget tests
+
+The app worked. Users were happy. But every new feature took longer than the last. Every bug fix risked breaking three other things. Onboarding new developers took weeks because understanding the codebase required holding the entire mental model in your head at once.
+
+## The Breaking Point
+
+Our breaking point came when we needed to add a major feature: multi-language support. What should have been a straightforward implementation—swap out some strings, add a locale switcher—became a nightmare.
+
+Text was hardcoded everywhere. Some strings lived in widgets. Others came from API responses with no localization keys. Some were concatenated dynamically. After two weeks of hunting down every hardcoded string, we realized the real problem: we weren't just adding a feature. We were fighting our own codebase.
+
+That's when we made the decision: we were going to refactor. Not a rewrite—that's usually a trap—but a systematic refactoring to clean house.
+
+## The Refactoring Strategy
+
+We didn't shut down development for three months. Instead, we adopted the **Boy Scout Rule**: leave the codebase better than you found it.
+
+### Week 1-2: Establishing the Foundation
+
+We started with architecture. We chose Riverpod for state management—not because it's trendy, but because it provided the consistency we desperately needed. We established clear layers:
+
+- **Presentation layer**: Widgets, dumb and focused only on UI
+- **Business logic layer**: Services and controllers handling business rules
+- **Data layer**: Repositories managing API calls and local storage
+
+### Week 3-6: The Great Extraction
+
+Screen by screen, we extracted business logic from widgets. A 1,200-line widget became:
+- A 150-line widget focused purely on UI
+- A controller class managing state and business logic
+- Repository methods handling data operations
+
+The immediate benefit? We could write unit tests for the first time. When business logic lives in widgets, it's nearly impossible to test. When it's in a controller, testing becomes straightforward.
+
+### Week 7-10: Feature Flags and Gradual Migration
+
+We used feature flags to deploy changes gradually. New architecture for new features, refactored code for old ones. This let us validate our approach without risking everything.
+
+### Week 11-12: Cleanup and Documentation
+
+We deleted dead code. So much dead code. Features that were built but never launched. Experiments that became permanent by accident. Thousands of lines, gone.
+
+We also documented our architecture decisions. Not just for future developers, but for ourselves—so we wouldn't make the same mistakes again.
+
+## The Results
+
+Six weeks of focused refactoring yielded results we couldn't have imagined:
+
+**Build time: 8 minutes → 2 minutes**
+Less code, better structure, fewer dependencies to resolve.
+
+**New feature implementation: 2 weeks → 3 days**
+Clear separation of concerns meant we could work on UI, business logic, and data layers in parallel.
+
+**Bug rate: 40% reduction**
+Fewer side effects, better test coverage, and code that was actually readable meant fewer bugs shipped to production.
+
+**Developer onboarding: 3 weeks → 3 days**
+New team members could understand the architecture in hours, not days. The codebase had a clear rhythm.
+
+**Test coverage: 0% → 68%**
+For the first time, we had confidence in our deployments. Refactoring with tests felt safe. Without them, it would have been terrifying.
+
+## What I Wish I Knew Earlier
+
+### Architecture Isn't Premature Optimization
+
+There's a myth that "we'll fix it later" is a valid strategy. It's not. Technical debt compounds like credit card interest. The longer you wait, the harder it is to pay down.
+
+Good architecture from day one doesn't mean over-engineering. It means thinking about separation of concerns, about where logic should live, about how your app will grow.
+
+### Refactoring Isn't a Dirty Word
+
+Developers often treat refactoring as admitting failure. *"If I had written it right the first time..."*
+
+Here's the truth: you can't write perfect code when you don't fully understand the problem. The first implementation teaches you what the system actually needs. Refactoring is the process of applying those lessons.
+
+### The Best Time to Refactor Is Continuously
+
+Don't wait for a "refactoring sprint." Make it part of your daily work:
+- See duplicated code? Extract it.
+- Touching a messy widget? Clean up what you're working on.
+- Writing a new feature? Don't repeat the mistakes of the past.
+
+Small, continuous improvements prevent the need for massive refactors.
+
+### Tests Are Your Safety Net
+
+I can't emphasize this enough: don't refactor without tests. Our first attempts at refactoring broke things because we had no way to verify behavior hadn't changed.
+
+Once we had test coverage, refactoring became... dare I say... enjoyable? We could make bold changes with confidence. The tests told us when we broke something immediately, not after deployment.
+
+## Practical Takeaways for Your Next Project
+
+If you're starting fresh or inheriting a mess, here's what I'd recommend:
+
+1. **Choose your architecture deliberately** - Don't just use what you used last time. Consider your team's size, the app's complexity, and your growth trajectory.
+
+2. **Separate concerns from day one** - UI handles UI. Business logic handles rules. Data layer handles data. Don't mix them.
+
+3. **Write tests as you go** - Retrofitting tests is painful. Writing them as you build is natural, and it makes refactoring later possible.
+
+4. **Document your decisions** - Why did you choose this state management solution? Why this folder structure? Future you (and your teammates) will thank you.
+
+5. **Refactor continuously** - Leave every file better than you found it. Small improvements compound.
+
+## The Bottom Line
+
+Refactoring the Tripex app was one of the hardest things I've done as a developer. It required discipline, patience, and the courage to change what was already "working."
+
+But it was also one of the most valuable experiences. I learned that good architecture isn't about following patterns—it's about making your codebase a place where developers can be productive, where features can be added without fear, and where technical debt doesn't accumulate like sediment.
+
+The app that took 8 minutes to build and terrified us to touch now builds in 2 minutes and welcomes new features. The team that dreaded certain parts of the codebase now understands it confidently.
+
+That's the power of good architecture. That's why refactoring matters.
+a:["$","$1","c",{"children":[["$","$Ld",null,{"posts":[{"slug":"test","title":"test","description":"","date":"2026-03-05T06:51:36.268Z","content":"---\ntitle: Test\ndescription: date: 2026-03-05\ndate: 2026-03-05\nstatus: draft\n---\n\ntest\n"},{"slug":"why-refactoring-matters","title":"Why Refactoring Matters: Lessons from Refactoring a Production Mobile App","description":"The codebase that made me a better developer — a story of technical debt, architecture decisions, and the real cost of 'we'll fix it later'.","date":"2026-03-05","content":"$e"}]}],["$Lf"],"$L10"]}]
+b:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+16:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+f:["$","script","script-0",{"src":"/_next/static/chunks/bbc5fbf34547f9b5.js","async":true,"nonce":"$undefined"}]
+10:["$","$L16",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
 12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-15:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"IconMark"]
-10:null
-14:[["$","title","0",{"children":"Edison Modesto | Flutter Developer & Software Engineer"}],["$","meta","1",{"name":"description","content":"Software Engineer specializing in Flutter development. Founder of Devtastic. Public speaker for Flutter and tech career events."}],["$","meta","2",{"name":"author","content":"Edison Modesto"}],["$","meta","3",{"name":"keywords","content":"Flutter,Software Engineer,Developer,Philippines,Cross-platform"}],["$","meta","4",{"property":"og:title","content":"Edison Modesto | Flutter Developer"}],["$","meta","5",{"property":"og:description","content":"Creating cross-platform applications that create an impact"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Edison Modesto | Flutter Developer"}],["$","meta","9",{"name":"twitter:description","content":"Creating cross-platform applications that create an impact"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L15","11",{}]]
+18:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"IconMark"]
+15:[["$","title","0",{"children":"Edison Modesto | Flutter Developer & Software Engineer"}],["$","meta","1",{"name":"description","content":"Software Engineer specializing in Flutter development. Founder of Devtastic. Public speaker for Flutter and tech career events."}],["$","meta","2",{"name":"author","content":"Edison Modesto"}],["$","meta","3",{"name":"keywords","content":"Flutter,Software Engineer,Developer,Philippines,Cross-platform"}],["$","meta","4",{"property":"og:title","content":"Edison Modesto | Flutter Developer"}],["$","meta","5",{"property":"og:description","content":"Creating cross-platform applications that create an impact"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Edison Modesto | Flutter Developer"}],["$","meta","9",{"name":"twitter:description","content":"Creating cross-platform applications that create an impact"}],["$","link","10",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L18","11",{}]]
+17:null
