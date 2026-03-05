@@ -142,11 +142,12 @@ export default function HomeClient({ posts }: HomeClientProps) {
             <div className="flex-shrink-0">
               <div 
                 className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#302B65]"
-                style={{ background: 'linear-gradient(135deg, #302B65 0%, #7E60BF 100%)' }}
               >
-                <div className="w-full h-full flex items-center justify-center text-white text-6xl font-bold" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  EM
-                </div>
+                <img 
+                  src="/images/me.png" 
+                  alt="Edison Modesto"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -215,11 +216,16 @@ export default function HomeClient({ posts }: HomeClientProps) {
           <div className="space-y-8">
             {experiences.map((exp) => (
               <div key={exp.id} className="flex items-start gap-6">
-                <div 
-                  className="w-28 h-28 flex-shrink-0 bg-white rounded-2xl flex items-center justify-center text-2xl font-bold text-gray-400 border border-gray-100"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
-                >
-                  {exp.company.charAt(0)}
+                <div className="w-28 h-28 flex-shrink-0 bg-white rounded-2xl border border-gray-100 overflow-hidden flex items-center justify-center p-4">
+                  <img 
+                    src={exp.logo} 
+                    alt={exp.company}
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                      (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class="text-2xl font-bold text-gray-400">${exp.company.charAt(0)}</span>`;
+                    }}
+                  />
                 </div>
                 <div className="flex-1 pt-2">
                   <h3 
@@ -269,16 +275,20 @@ export default function HomeClient({ posts }: HomeClientProps) {
                 key={project.id} 
                 className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] group"
               >
-                <div 
-                  className="h-48 rounded-t-2xl flex items-center justify-center"
-                  style={{ background: 'linear-gradient(135deg, #302B65 0%, #7E60BF 100%)' }}
-                >
-                  <span 
-                    className="text-white text-lg font-medium px-4 text-center"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
-                    {project.title}
-                  </span>
+                <div className="h-48 rounded-t-2xl overflow-hidden bg-gray-100">
+                  <img 
+                    src={project.thumbnail} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                      (e.target as HTMLImageElement).parentElement!.innerHTML = `
+                        <div class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #302B65 0%, #7E60BF 100%)">
+                          <span class="text-white text-lg font-medium px-4 text-center">${project.title}</span>
+                        </div>
+                      `;
+                    }}
+                  />
                 </div>
                 <div className="bg-white rounded-b-2xl p-6 border border-t-0 border-gray-100">
                   <h3 
@@ -344,6 +354,14 @@ export default function HomeClient({ posts }: HomeClientProps) {
                 
                 {/* Content */}
                 <div className={`ml-16 md:ml-0 md:w-5/12 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}>
+                  <div className="mb-4 rounded-xl overflow-hidden border border-gray-200">
+                    <img 
+                      src={achievement.media} 
+                      alt={achievement.title}
+                      className="w-full h-48 object-cover hover:scale-105 transition-transform cursor-pointer"
+                      onClick={() => window.open(achievement.media, '_blank')}
+                    />
+                  </div>
                   <h3 
                     className="text-lg font-bold text-[#050505] mb-2"
                     style={{ fontFamily: 'Poppins, sans-serif' }}
