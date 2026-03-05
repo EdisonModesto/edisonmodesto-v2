@@ -293,7 +293,7 @@ ${content}
                   type="text"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65]"
+                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65] placeholder:text-gray-400 text-gray-900"
                   placeholder="Post title"
                 />
               </div>
@@ -304,7 +304,7 @@ ${content}
                   type="text"
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65]"
+                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65] placeholder:text-gray-400 text-gray-900"
                   placeholder="Brief description"
                 />
               </div>
@@ -315,7 +315,7 @@ ${content}
                   type="date"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65]"
+                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65] placeholder:text-gray-400 text-gray-900"
                 />
               </div>
               
@@ -325,7 +325,7 @@ ${content}
                   value={content}
                   onChange={(e) => setContent(e.target.value)}
                   rows={10}
-                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65] font-mono text-sm"
+                  className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#302B65] font-mono text-sm placeholder:text-gray-400 text-gray-900"
                   placeholder="# Your post content here..."
                 />
               </div>
