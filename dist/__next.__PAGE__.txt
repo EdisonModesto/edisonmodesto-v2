@@ -1,60 +1,6 @@
 1:"$Sreact.fragment"
-2:I[54523,["/_next/static/chunks/135aa1e47e43b074.js","/_next/static/chunks/43991e484a0edef5.js"],"default"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-3:T4f9,
-# Getting Started with Flutter
-
-Flutter has become one of the most popular frameworks for building cross-platform applications. In this post, I'll share my journey and some tips for beginners.
-
-## Why Flutter?
-
-- **Single codebase** for iOS, Android, web, and desktop
-- **Hot reload** for rapid development
-- **Beautiful UI** with customizable widgets
-- **Strong community** and growing ecosystem
-
-## Your First App
-
-```dart
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Hello Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome!'),
-        ),
-        body: const Center(
-          child: Text('Hello, World!'),
-        ),
-      ),
-    );
-  }
-}
-```
-
-## Key Concepts
-
-1. **Everything is a widget** — UI components, layouts, even the app itself
-2. **State management** — Learn `setState`, then explore Provider, Riverpod, Bloc
-3. **Widget tree** — Understand how widgets compose together
-
-## Next Steps
-
-- Read the [official documentation](https://docs.flutter.dev)
-- Build a small project
-- Join the Flutter community
-
-Happy coding!
-0:{"buildId":"KXkg5Igauaz-wiL1KnYxB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"first-post","title":"Getting Started with Flutters","description":"A beginner's guide to building your first Flutter app","date":"2026-03-02","content":"$3"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/43991e484a0edef5.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+2:I[54523,["/_next/static/chunks/af82eab0a765c766.js","/_next/static/chunks/bbc5fbf34547f9b5.js"],"default"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/0bd6498bda341889.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"WRRtT55tyvh7hu1vir5RK","rsc":["$","$1","c",{"children":[["$","$L2",null,{"posts":[{"slug":"test","title":"test","description":"","date":"2026-03-05T02:35:14.951Z","content":"---\ntitle: Test\ndescription: date: 2026-03-05\ndate: 2026-03-05\nstatus: draft\n---\n\ntest\n"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/bbc5fbf34547f9b5.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

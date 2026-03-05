@@ -75,7 +75,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section - Full height, white background */}
-      <section className="min-h-screen flex items-center px-4 sm:px-6 lg:px-8">
+      <section id="home" className="min-h-screen flex items-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto w-full">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             {/* Left side - Text content */}
@@ -198,7 +198,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
       </section>
 
       {/* Experience Section - White background */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-8"
@@ -254,7 +254,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
       </section>
 
       {/* Projects Section - White background */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-4"
@@ -323,7 +323,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
       </section>
 
       {/* Achievements Section - White background with timeline */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="achievements" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#050505] mb-8"
@@ -391,7 +391,7 @@ export default function HomeClient({ posts }: HomeClientProps) {
       </section>
 
       {/* Contact Section - White background */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 
             className="text-3xl sm:text-4xl font-bold text-[#302B65] mb-4"

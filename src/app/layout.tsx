@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import ScrollLink from "./components/ScrollLink";
 
 const poppins = Poppins({ 
   subsets: ["latin"],
@@ -27,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={`${poppins.className} bg-white`}>
         <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,17 +37,18 @@ export default function RootLayout({
                 Edison Modesto
               </Link>
               <div className="hidden sm:flex items-center gap-8">
-                <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">Home</Link>
-                <Link href="/projects" className="text-gray-600 hover:text-gray-900 transition-colors">Projects</Link>
+                <ScrollLink href="#home" className="text-gray-600 hover:text-gray-900 transition-colors">Home</ScrollLink>
+                <ScrollLink href="#experience" className="text-gray-600 hover:text-gray-900 transition-colors">Experience</ScrollLink>
+                <ScrollLink href="#projects" className="text-gray-600 hover:text-gray-900 transition-colors">Projects</ScrollLink>
+                <ScrollLink href="#achievements" className="text-gray-600 hover:text-gray-900 transition-colors">Achievements</ScrollLink>
                 <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition-colors">Blog</Link>
-                <Link href="/achievements" className="text-gray-600 hover:text-gray-900 transition-colors">Achievements</Link>
               </div>
-              <a
-                href="mailto:edisonmodesto22@gmail.com"
+              <ScrollLink
+                href="#contact"
                 className="hidden sm:inline-flex items-center gap-2 bg-[#302B65] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#252250] transition-colors"
               >
                 Contact
-              </a>
+              </ScrollLink>
             </div>
           </div>
         </nav>
@@ -64,10 +66,11 @@ export default function RootLayout({
               <div>
                 <h3 className="text-lg font-bold text-[#050505] mb-4">Quick Links</h3>
                 <ul className="space-y-2 text-[#414141] text-sm">
-                  <li><Link href="/" className="hover:text-[#302B65] transition-colors">Home</Link></li>
-                  <li><Link href="/projects" className="hover:text-[#302B65] transition-colors">Projects</Link></li>
+                  <li><ScrollLink href="#home" className="hover:text-[#302B65] transition-colors">Home</ScrollLink></li>
+                  <li><ScrollLink href="#experience" className="hover:text-[#302B65] transition-colors">Experience</ScrollLink></li>
+                  <li><ScrollLink href="#projects" className="hover:text-[#302B65] transition-colors">Projects</ScrollLink></li>
+                  <li><ScrollLink href="#achievements" className="hover:text-[#302B65] transition-colors">Achievements</ScrollLink></li>
                   <li><Link href="/blog" className="hover:text-[#302B65] transition-colors">Blog</Link></li>
-                  <li><Link href="/achievements" className="hover:text-[#302B65] transition-colors">Achievements</Link></li>
                 </ul>
               </div>
               <div>
